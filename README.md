@@ -1,5 +1,5 @@
-# APIs-homework
-# Unit 5 - Financial Planning
+# APIs
+# Financial Planning
 
 ![Financial Planner](Images/financial-planner.png)
 
@@ -27,7 +27,7 @@ The second tool will be a retirement planning tool that will use the Alpaca API 
 
 ### Resources
 
-This homework will utilize two APIs:
+This will utilize two APIs:
 
 * The **Alpaca Markets API** will be used to pull historical stocks and bonds information.
 
@@ -149,65 +149,6 @@ Try adjusting the portfolio to either include more risk (a higher stock than bon
 * Remember to add the `.env` files to the `.gitignore` configuration to avoid exposing your API keys in your GitHub repository.
 
 * A `.gitignore` file contains file names and extensions of files that you don't want pushed to your repository. For more information on how a `gitignore` works, you can read the documentation [here](https://docs.github.com/en/github/using-git/ignoring-files).
-
-### Submission
-
-1. Use the starter Jupyter Notebook for your Personal Finance Planner.
-
-2. Submit your notebook to a new GitHub repository and create a `README.md` file.
-
-3. Submit the link to your GitHub project to Bootcampspot for grading.
-
----
-
-### Requirements
-
-#### Personal Finance Planner  (35 points)
-
-##### To receive all points, your code must:
-
-* Collect crypto prices using the requests Library. (10 points)
-* Collect investments data using Alpaca: SPY (stocks) and AGG (bonds). (10 points)
-* Perform a savings health analysis. (15 points)
-
-
-#### Retirement Planning (35 points)
-
-##### To receive all points, your code must:
-
-* Complete a Monte Carlo Simulation with 500 runs. (15 points)
-* Plot the Monte Carlo simulation results. (5 points)
-* Plot the probability distribution and confidence intervals. (5 points)
-* Complete the retirement analysis. (10 points)
-
-#### Optional Bonus (10 points)
-
-##### To receive all bonus points, your code must:
-
-* Optional: Adjust the portfolio to reflect an early retirement and rerun the analysis to show either a higher stock than bond ratio, or to have a higher initial investment. (10 points)
-
-#### Coding Conventions and Formatting (10 points)
-
-##### To receive all points, your code must:
-
-* Place imports at the beginning of the file, just after any module comments and docstrings and before module globals and constants. (3 points)
-* Name functions and variables with lowercase characters and with words separated by underscores. (2 points)
-* Follow Don't Repeat Yourself (DRY) principles by creating maintainable and reusable code. (3 points)
-* Use concise logic and creative engineering where possible. (2 points)
-
-#### Deployment and Submission (10 points)
-
-##### To receive all points, you must:
-
-* Submit a link to a GitHub repository that’s cloned to your local machine and contains your files. (5 points)
-* Include appropriate commit messages in your files. (5 points)
-
-#### Code Comments (10 points)
-
-##### To receive all points, your code must:
-
-* Be well commented with concise, relevant notes that other developers can understand. (10 points)
-
 
 ---
 
